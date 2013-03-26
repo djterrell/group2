@@ -40,7 +40,7 @@ if (isset($_POST['submit']))
 		<p>Online Ordering Implementation</p>
 		<p>Invalid Username and/or Password<br>
           Not registered? <a href="register.php">Click here</a> to register.</p><br>
-		<form name = "frmLogin" onSubmit="user_login.php" method ="post">
+		<form name = "frmLogin" onSubmit="orderonlinelogin.php" method ="post">
 			 <input type="hidden" name="redirect" value="<?php echo $_POST['redirect'];?>">
 			 Username: <input type="text" name="username"><br>
 			 Password: <input type="password" name="password"><br><br>
@@ -55,7 +55,7 @@ if (isset($_POST['submit']))
 }
 else
 {
-if ($_SERVER['HTTP_REFERER'] == "" || $_SERVER['HTTP_REFERER'] == "http://www.secs.oakland.edu/~jasena/login/index.php")
+if ($_SERVER['HTTP_REFERER'] == "" || $_SERVER['HTTP_REFERER'] == "http://141.210.25.90/orderonlinelogin.php")
 {
 $redirect = "http://www.secs.oakland.edu/~jasena/Webpage tests/orderonlineselect.html";
 }
@@ -77,7 +77,7 @@ $redirect = $_GET['redirect'];
 			<a href = index.html>Home</a> 
 			<a href= about.html>About Us</a> 
 			<a href = menu.html>Our Menu</a>
-			<a href = orderonline.html>Order Online</a> 
+			<a href = orderonlineselect.html>Order Online</a> 
 			<a href = contact.html>Contact Information</a>
 			<a href = register.html>Register</a>
 		</div>
@@ -86,7 +86,7 @@ $redirect = $_GET['redirect'];
 	<h3>Order Online</h3>
 	<div id = mainText>
 	<p>Online Ordering Implementation</p>
-	<form name = "frmLogin" onSubmit="user_login.php" method ="post">
+	<form name = "frmLogin" onSubmit="orderonlinelogin.php" method ="post">
 		 <input type="hidden" name="redirect" value="<? echo $redirect; ?>">
 		 Username: <input type="text" name="username"><br>
 		 Password: <input type="password" name="password"><br><br>
