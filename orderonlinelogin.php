@@ -31,7 +31,7 @@ if (isset($_POST['submit']))
 				<a href = menu.html>Our Menu</a>
 				<a href = orderonline.html>Order Online</a> 
 				<a href = contact.html>Contact Information</a>
-				<a href = register.html>Register</a>
+				<a href = register.php>Register</a>
 			</div>
 		</div>
 		
@@ -79,7 +79,7 @@ $redirect = "http://141.210.25.90/orderonlineselect.html";
 			<a href = menu.html>Our Menu</a>
 			<a href = orderonlineselect.html>Order Online</a> 
 			<a href = contact.html>Contact Information</a>
-			<a href = register.html>Register</a>
+			<a href = register.php>Register</a>
 		</div>
 	</div>
 	
