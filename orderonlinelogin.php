@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "conn.inc.php";
+include ("conn.inc.php");
 if (isset($_POST['submit']))
 {
      $query = "SELECT username, password FROM user_info WHERE username = '" . $_POST['username'] . "' AND password = (password('" . $_POST['password']. "'));";
@@ -57,11 +57,11 @@ else
 {
 if ($_SERVER['HTTP_REFERER'] == "" || $_SERVER['HTTP_REFERER'] == "http://141.210.25.90/orderonlinelogin.php")
 {
-$redirect = "http://www.secs.oakland.edu/~jasena/Webpage tests/orderonlineselect.html";
+$redirect = "http://141.210.25.90/orderonlineselect.html";
 }
 else
 {
-$redirect = $_GET['redirect'];
+$redirect = "http://141.210.25.90/orderonlineselect.html";
 }
 ?>
     <html>
