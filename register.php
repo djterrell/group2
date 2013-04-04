@@ -25,17 +25,41 @@ session_start();
 <h3>Register New Account</h3>
 <div id = mainText>
 <form action = "add.php" method = "post">
-Username: <input type="text" name = "loginUsername" ><br />
-Password: <input type="password" name = "loginPassword" ><br />
-Confirm Password: <input type="password" name="loginConfirmPassword"><br>
-First Name: <input type = "text" name = "loginFirstName"><br>
-Last Name: <input type = "text" name = "loginLastName"><br>
-Email: <input type="text" name = "loginEmail" ><br />
-Street address: <input type = "text" name = "loginAddress"><br>
-City: <input type = "text" name = "loginCity"><br>
-State: <input type = "text" name = "loginState"> <br>
-Zip Code: <input type = "text" name = "loginZip"><br>
-<input type="submit" value="Register">
+<table align = "center">
+<tr>
+<td>Username: </td><td><input type="text" name = "loginUsername" ></td>
+</tr>
+<tr>
+<td>Password: </td><td><input type="password" name = "loginPassword" ></td>
+</tr>
+<tr>
+<td>Confirm Password: </td><td><input type="password" name="loginConfirmPassword"></td>
+</tr>
+<tr>
+<td>First Name: </td><td><input type = "text" name = "loginFirstName"></td>
+</tr>
+<tr>
+<td>Last Name: </td><td><input type = "text" name = "loginLastName"></td>
+</tr>
+<tr>
+<td>Email: </td><td><input type="text" name = "loginEmail" ></td>
+</tr>
+<tr>
+<td>Street address: </td><td><input type = "text" name = "loginAddress"></td>
+</tr>
+<tr>
+<td>City: </td><td><input type = "text" name = "loginCity"></td>
+</tr>
+<tr>
+<td>State: </td><td><input type = "text" name = "loginState"></td>
+</tr>
+<tr>
+<td>Zip Code: </td><td><input type = "text" name = "loginZip"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Register"></td>
+</tr>
+</table>
 </form>
 </div>
 
