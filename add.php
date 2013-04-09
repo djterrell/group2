@@ -42,6 +42,7 @@ else
 		$results = mysql_query($insert)
 			or die(mysql_error());
 
+
 		$message = "Registration successful!";
 	}
 }
