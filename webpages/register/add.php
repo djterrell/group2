@@ -52,19 +52,19 @@ else
 	<html>
 	<head>
 	<title>Registration Status</title>
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="/stylesheet/style.css" type="text/css" />
 	</head>
 
 	<body>
 	<div id = masthead>
 		<div id = siteName><h2>Italian Restaurant</h2></div>
 		<div id = globalNav>
-			<a href = index.html>Home</a> 
-			<a href= about.html>About Us</a> 
-			<a href = menu.html>Our Menu</a>
-			<a href = orderonlinelogin.php>Order Online</a> 
-			<a href = contact.html>Contact Information</a>
-			<a href = register.php>Register</a>
+			<a href = /index.html>Home</a>
+			<a href= /webpages/about/about.html>About Us</a> 
+			<a href = /webpages/menu/menu.html>Our Menu</a>
+			<a href = /webpages/login/orderonlinelogin.php>Order Online</a> 
+			<a href = /webpages/contact/contact.html>Contact Information</a>
+			<a href = /webpages/register/register.php>Register</a>
 		</div>
 	</div>
 	<div id = mainText>
@@ -76,7 +76,7 @@ else
 	<?php 
 
 	if($message == "Registration successful!")
-		header( "refresh:3;url=orderonlinelogin.php" ) ;
+		header( "refresh:3;url=/webpages/login/orderonlinelogin.php" ) ;
 	else
-		header( "refresh:3; url = register.php" );
+		header( "refresh:3; url = /webpages/register/register.php" );
 	?>

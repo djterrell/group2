@@ -6,7 +6,7 @@ session_start();
 <html>
 <head>
 <title>Register</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="/stylesheet/style.css" type="text/css" />
 <script>
 function validate(form)
 {
@@ -103,12 +103,12 @@ function validate(form)
 <div id = masthead>
 	<div id = siteName><h2>Italian Restaurant</h2></div>
 	<div id = globalNav>
-		<a href = index.html>Home</a> 
-		<a href= about.html>About Us</a> 
-		<a href = menu.html>Our Menu</a>
-		<a href = orderonlinelogin.php>Order Online</a> 
-		<a href = contact.html>Contact Information</a>
-		<a href = register.php>Register</a>
+		<a href = /index.html>Home</a>
+		<a href= /webpages/about/about.html>About Us</a> 
+		<a href = /webpages/menu/menu.html>Our Menu</a>
+		<a href = /webpages/login/orderonlinelogin.php>Order Online</a> 
+		<a href = /webpages/contact/contact.html>Contact Information</a>
+		<a href = /webpages/register/register.php>Register</a>
 	</div>
 </div>
 
