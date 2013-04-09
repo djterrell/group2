@@ -1,3 +1,4 @@
+
 <?php
 
 $connect = mysql_connect("localhost", "djterrel", "bajacob1") or
