@@ -70,7 +70,7 @@ $redirect = "http://141.210.25.90/webpages/order%20online/orderonlineselect.html
 
 		<body>
 		<div id = masthead>
-			<div id = siteName><h2>Italian Restaurant</h2></div>
+			<div id = siteName><h2>Authentic Italian Dining</h2></div>
 			<div id = globalNav>
 				<a href = /index.html>Home</a>
 				<a href= /webpages/about/about.html>About Us</a> 
